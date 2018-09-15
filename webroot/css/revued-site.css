@@ -1,0 +1,303 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.row.header p {
+  margin: 20px 0;
+}
+
+.row.spaced {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.embed-code-textarea {
+  width: 100%;
+  min-height: 300px;
+}
+
+.btn2 {
+  border-radius: 6px !important;
+  margin-left: 5px;
+}
+
+.filter-icon, .filter-status {
+  cursor: pointer;
+  display: block;
+  color: black;
+  font-size: 16px;
+}
+.filter-icon:hover, .filter-status:hover {
+  background-color: #98C73C;
+  text-decoration: none;
+  color: black;
+}
+.filter-icon.selected, .filter-status.selected {
+  background-color: #98C73C;
+  color: black;
+}
+
+.list-block h5 {
+  margin: 0 0 5px 0;
+}
+.list-block img, .list-block .stars {
+  display: inline-block;
+  margin: 15px 0;
+}
+.list-block p {
+  text-align: justify;
+  margin-bottom: 25px;
+}
+.list-block video {
+  margin: 0 auto;
+}
+
+.form label {
+  margin: 9px 0 4px 0;
+}
+.form .error {
+  border: 2px solid #f00;
+}
+.form .valid {
+  border: 2px solid #98C73C;
+}
+
+#subscription-form .ui-datepicker-calendar {
+  display: none;
+}
+
+#subscription-form button.ui-datepicker-current {
+  display: none;
+}
+
+.review-sources {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.review-sources div {
+  flex-grow: 1;
+}
+
+.color-field {
+  display: none;
+}
+
+/* Carousel */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  right: initial;
+  left: initial;
+  width: 100%;
+  position: unset;
+}
+.carousel-caption a {
+  color: #98C73C;
+  font-weight: bold;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+/* Facebook login button */
+hr.line-or {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  border-top-width: 1px;
+  border-top-style: none;
+  border-top-color: currentcolor;
+  border-top: 1px solid #dedede;
+  color: #000000;
+  text-align: center;
+}
+
+hr.line-or:after {
+  content: ' OR ';
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+.disabledbutton {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+/* Modals */
+.terms-modal .modal-dialog {
+  overflow-y: initial !important;
+}
+.terms-modal .modal-body {
+  text-align: justify;
+  height: 80vh;
+  overflow-y: auto;
+}
+
+/************************** zhiqiang *************************/
+#map {
+  height: 400px;
+}
+
+.controls {
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  height: 29px;
+  margin-left: 17px;
+  margin-top: 10px;
+  outline: none;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+.controls:focus {
+  border-color: #4d90fe;
+}
+
+.title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
+}
+
+.map-area {
+  margin-top: 2rem;
+}
+
+.revued-btn-container {
+  cursor: pointer;
+  background: #000 url(../img/original-min.png);
+  width: 300px;
+  height: 61px;
+  border-radius: 10px;
+  border: 1px solid #b9a882;
+  padding: 14px 45px 12px 45px;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.revued-btn-sm {
+  background-size: 100px;
+  width: 103px;
+  height: 25px;
+  padding: 0px;
+}
+
+.revued-btn-md {
+  background-size: 200px;
+  width: 203px;
+  height: 43px;
+  padding: 0px;
+}
+
+.revued-btn-lg {
+  background-size: 300px;
+  width: 300px;
+  height: 62px;
+  padding: 0px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+}
+
+
+.ui-autocomplete {
+    max-height: 400px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+
+.ui-menu-item-wrapper {
+    height: 66px;
+}
+
+.draggable-element {
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  background: white;
+  border: 1px solid rgb(196, 196, 196);
+  text-align: center;
+  margin: 0.5rem 0.2rem;
+  color: rgb(51, 51, 51);
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+  cursor: move;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}

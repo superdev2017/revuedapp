@@ -1,0 +1,799 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Container */
+.reviews-container {
+  width: 360px;
+  background-color: black;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Revued Heading */
+.reviews-heading {
+  padding: 15px 5px;
+  text-align: center;
+}
+
+.reviews-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  font: 400 17px/1.3 Sans-Serif;
+}
+
+.circleBase {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  behavior: url(css/PIE.htc);
+  /* remove if you don't care about IE8 */
+  display: inline-block;
+}
+
+.type2 {
+  background: #1a1c1e;
+  border: 3px solid #1a1c1e;
+  padding: 3px;
+}
+
+.content {
+  padding-top: 30px;
+  position: relative;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+main {
+  /*  min-width: 320px;
+  padding: 50px;*/
+  margin: 0 auto;
+  max-width: auto;
+  background: #000000;
+}
+
+.testimonial {
+  margin: 15px 15px;
+}
+
+/* Floating Revued Box */
+.reviews {
+  /*width: 360px;*/
+  height: 400px;
+  z-index: 100;
+  /*position: fixed;*/
+  bottom: 0px;
+  right: 0px;
+  border-left: solid 2px #000000;
+  border-right: solid 2px #000000;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.yelp-logo {
+  float: left;
+  margin-top: -6px;
+}
+
+.reviews #tab1, .reviews #tab2 {
+  font-size: 15px;
+}
+
+.reviews section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+  overflow: auto;
+}
+
+.reviews input {
+  display: none;
+}
+
+.reviews label {
+  display: inline-block;
+  width: auto;
+  margin-top: -4px;
+  padding: 4px 8px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  font-size: 15px;
+}
+
+.reviews label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+.reviews label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+.reviews input:checked + label {
+  background-color: #ccc;
+  width: 25%;
+}
+
+.reviews input#tab2:checked + label {
+  background-color: #6d9ff6;
+  width: 25%;
+}
+
+.reviews input#tab3:checked + label {
+  background-color: #d32323;
+  width: 25%;
+}
+
+.reviews input#tab4:checked + label {
+  background-color: #3b5998;
+  width: auto;
+}
+
+#tab1:checked ~ #content1, #tab2:checked ~ #content2, #tab3:checked ~ #content3, #tab4:checked ~ #content4 {
+  display: block;
+}
+
+/** Review Source Tabs - Icon Swap for Large Screens **/
+/*@media only screen and (min-width: 650px) {*/
+.tab-avvo {
+  display: block;
+}
+
+.tab-avvosm {
+  display: none;
+}
+
+.tab-gplus {
+  display: block;
+}
+
+.tab-gplussm {
+  display: none;
+}
+
+.tab-yelp {
+  display: block;
+}
+
+.tab-yelpsm {
+  display: none;
+}
+
+.tab-facebook {
+  display: block;
+}
+
+.tab-facebooksm {
+  display: none;
+}
+
+/*}*/
+@media screen and (max-width: 300px) {
+  .reviews-container {
+    width: 300px;
+  }
+}
+/** Review Source Tabs - Icon Swap for Small Screens **/
+                                                        /*
+@media screen and (max-width: 650px) {
+    .reviews label {font-size: 0;}
+    .reviews label:before {margin: 0; font-size: 18px;}
+    .circleBase {display: none;}
+    .type2 {display: none;}
+    .tab-avvo {display: none;}
+    .tab-avvosm {display: block;}
+    .tab-gplus {display: none;}
+    .tab-gplussm {display: block;}
+    .tab-yelp {display: none;}
+    .tab-yelpsm {display: block;}
+    .tab-facebook {display: none;}
+    .tab-facebooksm {display: block;}
+}
+
+@media screen and (max-width: 400px) {
+    .reviews label {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .circleBase {display: none;}
+    .type2 {display: none;}
+    .tab-avvo {display: none;}
+    .tab-avvosm {display: block;}
+    .tab-gplus {display: none;}
+    .tab-gplussm {display: block;}
+    .tab-yelp {display: none;}
+    .tab-yelpsm {display: block;}
+    .tab-facebook {display: none;}
+    .tab-facebooksm {display: block;}
+}
+*/
+.reviews h2 {
+  margin-top: 40px;
+  font-weight: 200;
+  color: #b6b6b6;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.reviews .quote {
+  background: #eeeeee;
+  padding: 15px 20px 15px 15px;
+  /*margin-bottom: 30px;*/
+}
+
+.reviews .quote strong {
+  font-size: 15px;
+}
+
+.reviews .avvo-logo {
+  /*background: url('css/img/avvo-logo.php');*/
+}
+
+.reviews a {
+  color: #000000;
+  font-weight: bold;
+}
+
+.reviews a:hover {
+  color: #003cb3;
+}
+
+.reviews .quote:after {
+    /*  content: '';
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 20px 18px 0 18px;
+border-color: #ebf3f5 transparent transparent transparent;
+position: relative;
+top: 37px;
+left: 20px;*/
+}
+
+/* Reviewer Name & Photo */
+.reviewer {
+  margin-left: 25px;
+  margin-bottom: 80px;
+}
+
+.reviewer .photo {
+  background-color: #ccc;
+  border-radius: 100px;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-right: 10px;
+}
+
+.reviewer p {
+  position: relative;
+  top: 5px;
+  text-transform: uppercase;
+}
+
+.reviewer p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.reviewer p:nth-child(3) {
+  font-size: 14px;
+  color: #777;
+}
+
+/** Review Star Icon Styling - General **/
+.rating {
+  unicode-bidi: bidi-override;
+  /*direction: rtl;*/
+}
+
+/* Default inactive star - Lt Grey */
+.rating > span {
+  width: 1.1em;
+  font-size: 20px;
+  color: transparent;
+  position: relative;
+}
+
+.active {
+  content: "\2605";
+  /*background: red;*/
+}
+
+/* Default active star - Yellow */
+.active:before {
+  color: #FDE16D;
+  content: '\2605';
+  /* Full star in UTF8 */
+  position: absolute;
+}
+
+.source-logo {
+  padding-left: 0px;
+  padding-bottom: 5px;
+}
+
+.star-text {
+  font-size: 12px;
+  color: #000000;
+}
+
+.tab-avvo {
+  height: 36px !important;
+  margin-bottom: -4px;
+}
+
+.tab-gplus {
+  height: 38px;
+  padding-left: 3px;
+}
+
+.tab-yelp {
+  height: 36px;
+}
+
+.tab-facebook {
+  height: 36px;
+}
+
+.avvo-logo {
+  height: 34px !important;
+  vertical-align: bottom;
+}
+
+.gplus-logo {
+  top: 5px;
+  position: relative;
+}
+
+.facebook-logo {
+  top: 0;
+  position: relative;
+  display: block;
+  float: left;
+  padding-right: 5px;
+}
+
+#smtab1 {
+  padding: 3px;
+  text-align: center;
+  display: inline;
+}
+
+#smtab2 {
+  padding: 3px;
+  text-align: center;
+  display: inline;
+}
+
+#smtab3 {
+  padding: 3px;
+  text-align: center;
+  display: inline;
+}
+
+#smtab4 {
+  padding: 3px;
+  text-align: center;
+  display: inline;
+  overflow: auto;
+}
+
+/** AVVO REVIEWS **/
+/* Top Border & Background Colors */
+#content1 {
+  background-color: #eeeeee;
+  border-top: #09487d solid 14px;
+  padding-top: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Avvo Star Style & Colors */
+/* Avvo Active Stars */
+#content1 .active:before {
+  color: #fc9835;
+  content: url(../img/embed/av_fstar.png);
+  position: absolute;
+}
+
+/* Avvo Inactive Stars */
+#content1 .rating > span {
+  width: 21px;
+  height: 21px;
+  font-size: 18px;
+  background-image: url(../img/embed/av_vstar.png);
+  background-repeat: no-repeat;
+  background-position: inherit;
+  display: inline-block;
+}
+
+/** AVVO TYPOGRAPHY **/
+/* Title */
+#content1 a {
+  color: #333333;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#content1 a:hover {
+  color: #03a4cd;
+}
+
+/* Reveiwer */
+p.avvo_uid {
+  color: #333333;
+  font-size: 14px;
+  line-height: 3px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+span.avvo_sm {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* Date*/
+p.avvo_date {
+  color: #6e6e6e;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  line-height: 5px;
+}
+
+/* Review Text */
+.avvo_rev p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #333333;
+  line-height: 20px;
+  padding-top: 12px;
+}
+
+/** G PLUS REVIEWS **/
+/* Top Border & Background Colors */
+#content2 {
+  background-color: #ffffff;
+  border-top: 14px solid;
+  font-family: 'Roboto', sans-serif;
+  border-image: linear-gradient(to right, #fe0000, #fe0000 25%, #6d9ff6 25%, #6d9ff6 50%, #78c71c 50%, #78c71c 75%, #fed52b 75%, #fed52b 100%) 14;
+}
+
+#content2 .quote {
+  background-color: #ffffff;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+/*Google Plus Star Style & Colors */
+/* Google Plus Active Stars */
+#content2 .active:before {
+  color: #e7711b;
+  content: url(../img/embed/gp_fstar.png);
+  position: absolute;
+}
+
+/* Google Plus Inactive Stars */
+#content2 .rating > span {
+  width: 21px;
+  height: 21px;
+  font-size: 18px;
+  background-image: url(../img/embed/gp_vstar.png);
+  background-repeat: no-repeat;
+  background-position: inherit;
+  display: inline-block;
+}
+
+/* Google Plus Rating (Numerical) Hidden */
+#content2 .rating > span.g_star {
+  color: #e7711b;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  display: none;
+}
+
+/* Google Plus Logo */
+img.google-logo {
+  float: left;
+  margin-top: -7px;
+  margin-left: -15px;
+}
+
+/** GOOGLE PLUS TYPOGRAPHY **/
+/* Reviewer Name */
+p.plus_name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+  line-height: 1px;
+  padding-top: 10px;
+}
+
+/* Date */
+p.plus_date {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+  color: #333333;
+  line-height: 1px;
+  margin-top: -2px;
+  padding-bottom: 10px;
+}
+
+/* Review Text */
+.plus_rev p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #333333;
+  line-height: 20px;
+  padding-top: 12px;
+}
+
+/** YELP REVIEWS **/
+/* Top Border & Background Colors */
+#content3 {
+  background-color: #ffffff;
+  border-top: #d32323 solid 14px;
+  padding-top: 26px;
+  overflow: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#content3 .quote {
+  background-color: #f5f5f5;
+  border: #cccccc solid 1px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#content3 h3 {
+  background-color: #f5f5f5;
+  border: #cccccc solid 1px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 14px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+#content3 .quote {
+  background-color: #f5f5f5;
+  border: #cccccc solid 1px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+/* Yelp Star Style & Colors */
+/* Yelp Active Stars */
+#content3 .active:before {
+  color: #d32323;
+  content: url(../img/embed/yp_fstar.png);
+  position: absolute;
+}
+
+/* Yelp Inactive Stars */
+#content3 .rating > span {
+  width: 21px;
+  height: 21px;
+  font-size: 20px;
+  background-image: url(../img/embed/yp_vstar.png);
+  background-repeat: no-repeat;
+  background-position: inherit;
+  display: inline-block;
+}
+
+#content3 .rating > span {
+  font-size: 16px;
+}
+
+/** YELP TYPOGRAPHY **/
+/* Reviewer Name */
+p.yelp_uid {
+  color: #0073bb;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 4px;
+  padding-top: 10px;
+}
+
+span.yelp_date {
+  color: #666666;
+  font-size: 14px;
+}
+
+/* Yelp Currently Unused -- Location */
+p.yelp_location {
+  color: #333333;
+  font-size: 13px;
+  line-height: 4px;
+  padding-top: 12px;
+}
+
+/* Yelp Review Text */
+.yelp_rev p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333333;
+  line-height: 20px;
+  padding-top: 12px;
+  padding-bottom: 14px;
+}
+
+/** FACEBOOK REVIEWS **/
+#content4 {
+  border-top: #3b5998 solid 14px;
+  background-color: #e9ebee;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  overflow: auto;
+  font-family: "Helvetica", "Arial", "sans-serif";
+}
+
+#content4 .quote {
+  background-color: #ffffff;
+  border: #d8d8d8 solid 1px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#content4 h3 {
+  background-color: #ffffff;
+  border: #d8d8d8 solid 1px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 14px;
+  padding-top: 25px;
+}
+
+/* Facebook Star Style & Colors */
+/* Facebook Active Stars */
+#content4 .active:before {
+  color: #4080ff;
+  content: url(../img/embed/fb_fstar.png);
+  position: absolute;
+}
+
+/* Facebook Inactive Stars */
+#content4 .rating > span {
+  width: 21px;
+  height: 21px;
+  font-size: 18px;
+  background-image: url(../img/embed/fb_vstar.png);
+  background-repeat: no-repeat;
+  background-position: inherit;
+  display: inline-block;
+}
+
+/* FB Logo */
+/** FACEBOOK TYPOGRAPHY **/
+/* FB Reviewer Name */
+p.fb_uid {
+  color: #3b5998;
+  font-size: 12px;
+  font-weight: 600;
+  /*line-height: 4px;*/
+  padding-top: 10px;
+  font-family: "Helvetica", "Arial", "sans-serif";
+}
+
+/* FB Page Link */
+a.fb_pagelink {
+  color: #3b5998;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 4px;
+  padding-top: 10px;
+  font-family: "Helvetica", "Arial", "sans-serif";
+}
+
+/* FB - Review Date */
+p.fb_date {
+  color: #90949c;
+  font-size: 11px;
+  font-family: "Helvetica", "Arial", "sans-serif";
+  line-height: 4px;
+  padding-bottom: 10px;
+}
+
+/* FB - Lt. Grey Accent Text */
+span.fb_grey {
+  color: #90949c;
+  font-size: 11px;
+  font-family: "Helvetica", "Arial", "sans-serif";
+  font-weight: 300;
+}
+
+/* FB Review Text */
+.fb_rev p {
+  font-family: "Helvetica", "Arial", "sans-serif";
+  font-size: 14px;
+  color: #333333;
+  line-height: 20px;
+  padding-bottom: 14px;
+  display: block;
+}
+
+/* Revued Branding Footer */
+.revbrand {
+  background-color: #000;
+  width: 100%;
+  text-align: right;
+  padding: 5px 10px 5px 5px;
+}
+
+.revbrand_logo {
+  width: auto;
+  padding-right: 5px;
+  margin-top: -3px;
+}
+
+.revbrandtxt {
+  color: #fff;
+  font-family: "Scada", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.revbrandtxt:hover {
+  color: #98c73c;
+}
+
+/* DH Overrides */
+.reviews input:checked + label {
+  padding-top: 6px;
+}
+
+.reviews label {
+  float: left;
+  margin-top: 0;
+  padding: 0px 8px 12px 8px;
+}
+
+.reviews section {
+  float: left;
+  width: 100%;
+}
+
+.circleBase {
+  margin-top: 6px;
+}
+
+/** Sinple Share - Share Buttons **/
+#share-buttons {
+  text-align: right;
+  display: none;
+}
+
+#share-buttons img {
+  width: 32px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  text-align: center;
+  display: none;
+}
+
+.no-reviews {
+  padding: 10px;
+  text-align: center;
+}

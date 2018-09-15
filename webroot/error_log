@@ -1,0 +1,18 @@
+[22-Aug-2017 16:54:37 UTC] PHP Fatal error:  Class 'net\authorize\api\contract\v1\MerchantAuthenticationType' not found in /home/revued/public_html/revued-app/src/Controller/Admin/TestingController.php on line 24
+[22-Aug-2017 16:56:48 UTC] PHP Fatal error:  Class 'net\authorize\api\contract\v1\MerchantAuthenticationType' not found in /home/revued/public_html/revued-app/src/Controller/Admin/TestingController.php on line 24
+[22-Aug-2017 16:56:55 UTC] PHP Fatal error:  Class 'net\authorize\api\contract\v1\MerchantAuthenticationType' not found in /home/revued/public_html/revued-app/src/Controller/Admin/TestingController.php on line 24
+[24-Aug-2017 19:20:13 UTC] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/revued/public_html/revued-app/src/Template/Site/embed.ctp on line 1
+[11-Sep-2017 16:24:09 UTC] PHP Fatal error:  Class 'App\Controller\Log' not found in /home/revued/public_html/revued-app/src/Controller/AuthController.php on line 123
+[13-Sep-2017 01:45:57 UTC] PHP Fatal error:  You must enable the intl extension to use CakePHP. in /home/revued/public_html/revued-app/config/bootstrap.php on line 25
+[13-Sep-2017 01:45:59 UTC] PHP Fatal error:  You must enable the intl extension to use CakePHP. in /home/revued/public_html/revued-app/config/bootstrap.php on line 25
+[13-Sep-2017 01:46:02 UTC] PHP Fatal error:  You must enable the intl extension to use CakePHP. in /home/revued/public_html/revued-app/config/bootstrap.php on line 25
+[13-Sep-2017 01:46:05 UTC] PHP Fatal error:  You must enable the intl extension to use CakePHP. in /home/revued/public_html/revued-app/config/bootstrap.php on line 25
+[13-Sep-2017 01:46:10 UTC] PHP Fatal error:  You must enable the intl extension to use CakePHP. in /home/revued/public_html/revued-app/config/bootstrap.php on line 25
+[13-Sep-2017 01:46:19 UTC] PHP Fatal error:  You must enable the intl extension to use CakePHP. in /home/revued/public_html/revued-app/config/bootstrap.php on line 25
+[13-Sep-2017 01:46:20 UTC] PHP Fatal error:  You must enable the intl extension to use CakePHP. in /home/revued/public_html/revued-app/config/bootstrap.php on line 25
+[13-Sep-2017 01:46:21 UTC] PHP Fatal error:  You must enable the intl extension to use CakePHP. in /home/revued/public_html/revued-app/config/bootstrap.php on line 25
+[13-Sep-2017 01:46:49 UTC] PHP Fatal error:  You must enable the intl extension to use CakePHP. in /home/revued/public_html/revued-app/config/bootstrap.php on line 25
+[02-Oct-2017 17:32:02 UTC] PHP Fatal error:  You must enable the intl extension to use CakePHP. in /home/revued/public_html/revued-app/config/bootstrap.php on line 25
+[28-Nov-2017 20:20:55 UTC] PHP Fatal error:  Class 'Facebook\Facebook' not found in /home/revued/public_html/revued-app/src/Controller/DashboardController.php on line 332
+[22-Jan-2018 22:46:53 UTC] OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 104
+[13-Feb-2018 22:56:22 UTC] PHP Fatal error:  Class 'CloudConvert\Api' not found in /home/revued/public_html/revued-app/src/Event/ReviewAssetListener.php on line 76

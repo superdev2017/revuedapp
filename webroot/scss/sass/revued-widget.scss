@@ -1,0 +1,754 @@
+@import url("//fonts.googleapis.com/css?family=Sintony");
+
+/* Variables */
+$font-title: Sintony, sans-serif;
+$background-color: black;
+$text-color: white;
+$revued-color: #b7aeae;
+$revued-icon-color: #98C73C;
+$revued-font: "Scada", Arial, Helvetica, sans-serif;
+$max-width: 360px;
+$max-height: 330px;
+
+/* Av */
+$av-background-color: #ccc;
+$av-color: #09487d;
+$av-font: 'Montserrat', sans-serif;
+
+/* Fb */
+$fb-background-color: #3b5998;
+$fb-font: "Helvetica", "Arial", "sans-serif";
+
+/* Gp */
+$gp-font: 'Roboto', sans-serif;
+$gp-background-color: #6d9ff6;
+
+/* Yp */
+$yp-background-color: #d32323;
+$yp-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Container */
+.reviews-container {
+    min-width: 280px;
+    width: 100%;
+    background-color: $background-color;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.reviews-heading {
+    padding: 7px;
+    height: 40px;
+    text-align: center;
+    color: $text-color;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    font-family: $font-title;
+}
+
+.reviews-main {
+    background-color: $background-color;
+    height: $max-height + 100px;
+    overflow-x: hidden;
+
+    .source-img {
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    label {
+        display: inline-block;
+        width: 75px;
+        padding: 10px 5px;
+        font-weight: 600;
+        text-align: center;
+        color: #bbb;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: $revued-font;
+        height: 100px;
+    }
+
+    input {
+        display: none;
+
+        &#tab1:checked+label {
+            background-color: $av-background-color;
+        }
+
+        &#tab2:checked+label {
+            background-color: $gp-background-color;
+        }
+
+        &#tab3:checked+label {
+            background-color: $yp-background-color;
+        }
+
+        &#tab4:checked+label {
+            background-color: $fb-background-color;
+        }
+
+        &#tab5:checked+label {
+            background-color: $revued-color;
+
+            .source-img {
+                background-image: url(../img/embed/tab5-alt.png);
+            }
+        }
+    }
+
+    .gallery .source-img{
+        min-height: 40px;
+        width: 100%;
+    }
+
+    #tab1+label .source-img{
+        background-image: url(../img/embed/tab1.png);
+    }
+
+    #tab2+label .source-img {
+        background-image: url(../img/embed/tab2.png);
+    }
+
+    #tab3+label .source-img {
+        background-image: url(../img/embed/tab3.png);
+    }
+
+    #tab4+label .source-img {
+        background-image: url(../img/embed/tab4.png);
+    }
+
+    #tab5+label .source-img {
+        background-image: url(../img/embed/tab5.png);
+    }
+
+    section {
+        clear: both;
+        height: $max-height;
+        display: none;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        .source-img {
+            height: 35px;
+            min-width: 35px;
+            float: left;
+            margin-right: 7px;
+        }
+    }
+}
+/*
+#tab1:checked~#content1, #tab2:checked~#content2, #tab3:checked~#content3, #tab4:checked~#content4, #tab5:checked~#content5 {
+    display: block;
+}
+*/
+.brand {
+    background-color: $background-color;
+    text-align: right;
+    padding: 7px;
+    margin: 0;
+    height: 35px;
+
+    a {
+        color: $text-color;
+        font-family: $revued-font;
+        font-size: 14px;
+        text-decoration: none;
+
+        &:hover {
+            color: $revued-color;
+            text-decoration: underline;
+        }
+    }
+
+    img {
+        vertical-align: middle;
+        height: 25px;
+    }
+}
+
+.testimonial {
+    margin: 15px 0px;
+    clear: both;
+}
+
+/* AVVO */
+#content1 {
+    background-color: #eee;
+    border-top: $av-color solid 14px;
+    font-family: $av-font;
+    font-size: 14px;
+    color: #333;
+    border-left: 1px solid rgba(9, 72, 125, 0.5);
+    border-right: 1px solid rgba(9, 72, 125, 0.5);
+
+    a {
+        color: #333;
+        font-size: 15px;
+        font-weight: 600;
+
+        &:hover {
+            color: #03a4cd;
+        }
+    }
+
+    .source-img {
+        background-image: url(../img/embed/tab1.png);
+    }
+
+    .active:before {
+        color: #fc9835;
+        content: url(../img/embed/av_fstar.png);
+        position: absolute;
+    }
+
+    .rating > span {
+        width: 21px;
+        height: 21px;
+        font-size: 18px;
+        background-image: url(../img/embed/av_vstar.png);
+        background-repeat: no-repeat;
+        background-position: inherit;
+        display: inline-block;
+    }
+}
+
+/* GOOGLE */
+#content2 {
+    background-color: #fff;
+    border-top: 14px solid;
+    font-family: $gp-font;
+    font-size: 14px;
+    color: #333;
+    border-image: linear-gradient( to right, #fe0000, #fe0000 25%, #6d9ff6 25%, #6d9ff6 50%, #78c71c 50%, #78c71c 75%, #fed52b 75%, #fed52b 100%) 14;
+    border-left: 1px solid rgba(0,0,0, 0.2);
+    border-right: 1px solid rgba(0,0,0, 0.2);
+
+    .source-img {
+        background-image: url(../img/embed/tab2.png);
+    }
+
+    .quote {
+        background-color: #ffffff;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .active:before {
+        color: #e7711b;
+        content: url(../img/embed/gp_fstar.png);
+        position: absolute;
+    }
+
+    .rating > span {
+        width: 21px;
+        height: 21px;
+        font-size: 18px;
+        background-image: url(../img/embed/gp_vstar.png);
+        background-repeat: no-repeat;
+        background-position: inherit;
+        display: inline-block;   
+    }
+
+    .rating > span.g_star {
+        color: #e7711b;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        display: none;
+    }
+}
+
+/* YELP */
+#content3 {
+    background-color: #fff;
+    border-top: $yp-background-color solid 14px;
+    font-family: $yp-font;
+    font-size: 14px;
+    color: #333;
+    border-left: 1px solid rgba(211, 35, 35, 0.5);
+    border-right: 1px solid rgba(211, 35, 35, 0.5);
+
+    .source-img {
+        background-image: url(../img/embed/yp_sm.png);
+    }
+
+    .quote {
+        background-color: #f5f5f5;
+        border: #cccccc solid 1px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    h3 {
+        background-color: #f5f5f5;
+        border: #cccccc solid 1px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 14px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .quote {
+        background-color: #f5f5f5;
+        border: #cccccc solid 1px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .active:before {
+        color: #d32323;
+        content: url(../img/embed/yp_fstar.png);
+        position: absolute;
+    }
+
+    .rating > span {
+        width: 21px;
+        height: 21px;
+        font-size: 20px;
+        background-image: url(../img/embed/yp_vstar.png);
+        background-repeat: no-repeat;
+        background-position: inherit;
+        display: inline-block;   
+    }
+
+    .rating>span {
+        font-size: 16px;
+    }
+}
+
+/* FACEBOOK */
+#content4 {
+    background-color: #e9ebee;
+    border-top: $fb-background-color solid 14px;
+    font-family: $fb-font;
+    font-size: 14px;
+    color: #333;
+    border-left: 1px solid rgba(59, 87, 157, 0.5);
+    border-right: 1px solid rgba(59, 87, 157, 0.5);
+
+    .source-img {
+        background-image: url(../img/embed/tab4.png);
+    }
+
+    .quote {
+        background-color: #ffffff;
+        border: #d8d8d8 solid 1px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .active:before {
+        color: #4080ff;
+        content: url(../img/embed/fb_fstar.png);
+        position: absolute;
+    }
+
+    .rating > span {
+        width: 21px;
+        height: 21px;
+        font-size: 18px;
+        background-image: url(../img/embed/fb_vstar.png);
+        background-repeat: no-repeat;
+        background-position: inherit;
+        display: inline-block;
+    }
+}
+
+/* REVUED */
+#content5 {
+    background-color: #e9ebee;
+    border-top: $revued-color solid 14px;
+    font-family: $revued-font;
+    font-size: 14px;
+    color: #333;
+    border-left: 1px solid rgba(152, 199, 60, 0.5);
+    border-right: 1px solid rgba(152, 199, 60, 0.5);
+
+    .source-img {
+        background-image: url(../img/embed/tab5.png);
+    }
+
+    .quote {
+        color: white;
+        background-color: black;
+        //border: #d8d8d8 solid 1px;
+        margin-left: 12px;
+        margin-right: 12px;
+        padding: 1px 0 0 0;
+    }
+    .rating {
+        margin: 0 12px;
+        padding: 5px 5px 2px;
+        background-color: $revued-color;
+    }
+
+    .active:before {
+        color: #fc9835;
+        content: url(../img/embed/rv_fstar.png);
+        position: absolute;
+    }
+
+    .rating > span {
+        width: 21px;
+        height: 21px;
+        font-size: 18px;
+        background-image: url(../img/embed/rv_vstar.png);
+        background-repeat: no-repeat;
+        background-position: inherit;
+        display: inline-block;
+    }
+}
+
+
+/* Reveiwer */
+p.avvo_uid {
+    color: #333333;
+    font-size: 14px;
+    line-height: 3px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+span.avvo_sm {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Date*/
+p.avvo_date {
+    color: #6e6e6e;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    line-height: 5px;
+}
+
+/* Review Text */
+.avvo_rev p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    padding-top: 12px;
+}
+
+/** FACEBOOK TYPOGRAPHY **/
+/* FB Reviewer Name */
+p.fb_uid {
+    color: #3b5998;
+    font-size: 12px;
+    font-weight: 600;
+    /*line-height: 4px;*/
+    padding-top: 10px;
+    font-family: "Helvetica", "Arial", "sans-serif";
+}
+
+/* FB Page Link */
+a.fb_pagelink{
+    color: #3b5998;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 4px;
+    padding-top: 10px;
+    font-family: "Helvetica", "Arial", "sans-serif";
+}
+
+/* FB - Review Date */
+p.fb_date {
+    color: #90949c;
+    font-size: 11px;
+    font-family: "Helvetica", "Arial", "sans-serif";
+    line-height: 4px;
+    padding-bottom: 10px;
+}
+/* FB - Lt. Grey Accent Text */
+span.fb_grey {
+    color: #90949c;
+    font-size: 11px;
+    font-family: "Helvetica", "Arial", "sans-serif";
+    font-weight: 300;
+}
+
+/* FB Review Text */
+.fb_rev p {
+    font-family: "Helvetica", "Arial", "sans-serif";
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    padding-bottom: 14px;
+    display: block;
+}
+
+
+
+/*****************/
+
+.circleBase {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    behavior: url(css/PIE.htc);
+    /* remove if you don't care about IE8 */
+    display: inline-block;
+}
+.type2 {
+    background: #1a1c1e;
+    border: 3px solid #1a1c1e;
+    padding: 3px;
+}
+
+
+
+.yelp-logo {
+    float: left;
+    margin-top: -6px;
+}
+
+
+@media screen and (max-width: 300px) {
+    .reviews-container {
+        width: 300px;
+    }
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.reviews-main .quote {
+    background: #eeeeee;
+    padding: 15px 20px 15px 15px;
+    /*margin-bottom: 30px;*/
+}
+
+.reviews-main .quote strong {
+    font-size: 15px;
+}
+
+
+/* Reviewer Name & Photo */
+.reviewer {
+    margin-left: 25px;
+    margin-bottom: 80px;
+}
+
+.reviewer .photo {
+    background-color: #ccc;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+}
+.reviewer p {
+    position: relative;
+    top: 5px;
+    text-transform: uppercase;
+}
+.reviewer p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.reviewer p:nth-child(3) {
+    font-size: 14px;
+    color: #777;
+}
+
+/** Review Star Icon Styling - General **/
+.rating {
+    unicode-bidi: bidi-override;
+    /*direction: rtl;*/
+}
+
+/* Default inactive star - Lt Grey */
+.rating>span {
+    width: 1.1em; font-size: 20px; color: transparent;
+    position: relative;
+}
+.active {content: "\2605"; /*background: red;*/ }
+
+/* Default active star - Yellow */
+.active:before {
+    color: #FDE16D;
+    content: '\2605'; /* Full star in UTF8 */
+    position: absolute;
+}
+
+.source-logo {
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+.star-text {
+    font-size: 12px;
+    color: #000000;
+}
+.avvo-logo {
+    height: 34px !important;
+    vertical-align: bottom;
+}
+.gplus-logo {
+    top: 5px;
+    position: relative;
+}
+.facebook-logo {
+    top: 0;
+    position: relative;
+    display: block;
+    float: left;
+    padding-right: 5px;
+}
+
+/* Google Plus Logo */
+    img.google-logo{
+    float:left;
+    margin-top: -7px;
+    margin-left: -15px;
+}
+
+/** GOOGLE PLUS TYPOGRAPHY **/
+/* Reviewer Name */
+p.plus_name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 14px;
+    padding-top: 10px;
+}
+
+/* Date */
+p.plus_date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    color: #333333;
+    line-height: 1px;
+    margin-top: -2px;
+    padding-bottom: 10px;
+}
+
+/* Review Text */
+.plus_rev p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    padding-top: 12px;
+}
+
+
+
+/** YELP TYPOGRAPHY **/
+/* Reviewer Name */
+p.yelp_uid {
+    color: $yp-background-color;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+span.yelp_date {
+    color: #666666;
+    font-size: 14px;
+}
+
+/* Yelp Currently Unused -- Location */
+p.yelp_location {
+    color: #333333;
+    font-size: 13px;
+    line-height: 4px;
+    padding-top: 12px;
+}
+
+/* Yelp Review Text */
+.yelp_rev p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+}
+
+
+.circleBase {
+  margin-top: 6px;
+}
+
+/** Sinple Share - Share Buttons **/
+#share-buttons {
+text-align: right;
+display: none;
+}
+
+#share-buttons img {
+width: 32px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+text-align: center;
+display: none;
+}
+
+.no-reviews {
+    padding: 10px;
+    text-align: center;
+}
+
+.video-js {
+    margin: 15px auto;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    overflow: hidden;
+}
+
+button.vjs-fullscreen-control.vjs-control.vjs-button {
+    display: none;
+}
+
+.vjs-playing {
+    height: 320px;
+    //width: 290px;
+    width: 100%;
+    //left: 15px;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.video-js .vjs-big-play-button {
+    width: 80px !important;
+    left: 17px !important;
+    border: none !important;
+    border-radius: 1.5em !important;
+    color: $revued-icon-color;
+}
+
+@media only screen and (max-width: 360px) {
+    #revued_iframe {
+        max-width: 320px;
+    }
+    .reviews-container {
+        min-width: 300px;
+        max-width: 320px;
+    }
+}

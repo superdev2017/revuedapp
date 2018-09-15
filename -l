@@ -1,0 +1,1233 @@
+[33mcommit ea1a06abf699af39bf2db14f6778780ce8496df6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Feb 16 20:20:14 2018 -0800
+
+    alt to mp4
+
+[33mcommit 2a0512a84e2382c862829ad6ec98fd513986a13a[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Feb 16 20:03:07 2018 -0800
+
+    alt to mp4
+
+[33mcommit 24faba2806dff8625ced16c0ebf4bbf9f70e1cd7[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Feb 15 10:10:44 2018 -0800
+
+    auto active
+
+[33mcommit e5bb37b0a1d458acc3d2c7042b5867038e76d892[m
+Merge: c954480 f974da6
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Feb 14 12:03:26 2018 -0800
+
+    Merge branch 'feature_plugin_source_order'
+
+[33mcommit f974da6469c5e4f3d1fa50f6a6463e72c3c962c7[m[33m ([m[1;31morigin/feature_plugin_source_order[m[33m)[m
+Author: zhiqianghan <superdeveloper1988@yandex.com>
+Date:   Thu Feb 15 03:25:04 2018 +0800
+
+    Add Tab Ordersgfdsgfsd
+
+[33mcommit ab50320342dd3ff4176d0cded5395e85f0a5cee6[m
+Author: zhiqianghan <superdeveloper1988@yandex.com>
+Date:   Wed Feb 14 19:48:55 2018 +0800
+
+    Plugin first order problem
+
+[33mcommit 9004f7d8b8efc1b4b87dec27e813c33746221db9[m
+Author: zhiqianghan <superdeveloper1988@yandex.com>
+Date:   Tue Feb 13 12:51:03 2018 +0800
+
+    Add Tab Ordersgfdsgfsd
+
+[33mcommit c9544803ef969a3fbfc883edbf27ea820c2d8192[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sun Feb 11 14:54:02 2018 -0800
+
+    reviewFeedback
+
+[33mcommit c44d62a2426969b7532a2cccd7ac95a2d530d49c[m
+Author: zhiqianghan <superdeveloper1988@yandex.com>
+Date:   Mon Feb 12 00:35:42 2018 +0800
+
+    Add Tab Orders
+
+[33mcommit f94fcc42fd97ec1b997eb724c1b5b7316ed90e49[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Jan 30 15:48:56 2018 -0800
+
+    widget video height, fullcolor picker
+
+[33mcommit 66b35fa87ad5334e93cae17447f26ff0901a8482[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Jan 25 17:32:32 2018 -0800
+
+    rv max video height
+
+[33mcommit 85df30feae182d8e0e91beb1a7bb6c15caf85e8f[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Jan 25 15:28:56 2018 -0800
+
+    small widget edits
+
+[33mcommit 69ed6071745da43a07f3d60920ceabbe476d686d[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Jan 24 19:54:18 2018 -0800
+
+    plugin edits
+
+[33mcommit 85d141483aca516ebf66f9d9d39231d33de2eabe[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Jan 23 19:15:13 2018 -0800
+
+    remove email as unique
+
+[33mcommit d5f8fcd85ae702bdf848fd3e34327dd025631ba1[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Jan 22 21:46:47 2018 -0800
+
+    route updates, videolist update
+
+[33mcommit 20933440a20a2ff62d7b5c93ac1cff362231f4b2[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Jan 18 11:46:18 2018 -0800
+
+    bug on patch collab
+
+[33mcommit 556d3ba3479bb476d10632ed5983128cffa46e39[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Jan 18 11:34:01 2018 -0800
+
+    mobileapp controller
+
+[33mcommit bf2669cf1b503459281e6e5214ee2701717a1cbd[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Jan 16 18:02:53 2018 -0800
+
+    video list endpoint
+
+[33mcommit e0ea9a0fbf1ee82faf476a003e61ca31fc3d61dc[m
+Author: zhiqianghan <superdeveloper1988@yandex.com>
+Date:   Mon Jan 15 21:55:10 2018 +0800
+
+    Add City and Country
+
+[33mcommit b35c786c34bb586ae2e71b0854eefd31a24b8c43[m
+Author: zhiqianghan <superdeveloper1988@yandex.com>
+Date:   Fri Jan 12 03:00:19 2018 +0800
+
+    Add City and Country
+
+[33mcommit 3f2921e14a16552952ab81b9c2bc56661aadf3ee[m
+Author: superdeveloper1988@yandex.com <superdeveloper1988@yandex.com>
+Date:   Wed Jan 10 01:06:02 2018 +0800
+
+    Add City and Country
+
+[33mcommit b35d767f8dc57e68a3b03e5c27911a93fcf8fbc5[m
+Author: superdeveloper1988@yandex.com <superdeveloper1988@yandex.com>
+Date:   Wed Jan 10 01:04:51 2018 +0800
+
+    Add City and Country
+
+[33mcommit 03b129a014b4eb52dbc5674d0f7b6ea5bd655aa5[m
+Merge: 9c6d31d b06af57
+Author: superdeveloper1988@yandex.com <superdeveloper1988@yandex.com>
+Date:   Mon Jan 8 12:01:37 2018 +0800
+
+    Merge branch 'master' into zhiqiang
+    
+    # Conflicts:
+    #       src/Template/Element/settings.ctp
+    #       webroot/css/revued-site.css
+    #       webroot/scss/sass/revued-site.scss
+
+[33mcommit 9c6d31d326d9069f33521881d71867611e59d4c4[m
+Author: superdeveloper1988@yandex.com <superdeveloper1988@yandex.com>
+Date:   Mon Jan 8 11:58:23 2018 +0800
+
+    Yelp API Key Update
+
+[33mcommit b51d9b6e1021f221238d05e4cc9f24afa75e0a43[m
+Author: superdeveloper1988@yandex.com <superdeveloper1988@yandex.com>
+Date:   Mon Jan 8 11:56:17 2018 +0800
+
+    Yelp API Key Update
+
+[33mcommit 2b28df597213e9756144d29b54a848aca310488b[m
+Author: superdeveloper1988@yandex.com <superdeveloper1988@yandex.com>
+Date:   Mon Jan 8 11:51:28 2018 +0800
+
+    Yelp Function added
+
+[33mcommit b06af579bcb85fde37ab1a33e59b5e1fea8521c2[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sat Jan 6 13:15:19 2018 -0800
+
+    btn sizes, dashboard bugs
+
+[33mcommit b7c2be9b94416997ba412949d98733b5590f3bc4[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Dec 25 11:38:04 2017 -0800
+
+    pull by placeID
+
+[33mcommit 63f2930526bdb29995e870de71f0f048d647313f[m
+Merge: d6d9343 f215c04
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sun Dec 17 15:46:38 2017 -0800
+
+    Merge branch 'zhiqiang'
+
+[33mcommit d6d93433f93ce883533d267fcbcee0ac0b6d2fb1[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sun Dec 17 14:55:13 2017 -0800
+
+    appStore by collaborator
+
+[33mcommit 02626ee1819dfc987f4bd1239ae022c9f0d144be[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sun Dec 17 14:27:43 2017 -0800
+
+    temp disable if no user id
+
+[33mcommit e2e7b86fc5ad59f5b1791488984a5beed773bb94[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sun Dec 17 14:21:25 2017 -0800
+
+    change to collaborator id
+
+[33mcommit 9d0f79f3fbe5619fc8fd4712f98dead26b27bf36[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sun Dec 17 14:17:05 2017 -0800
+
+    change to collaborator id
+
+[33mcommit 94fbc58be37972de1cd3dde58b571f3548ff3f15[m
+Merge: a5cba10 a42dc77
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sun Dec 17 14:03:40 2017 -0800
+
+    Merge branch 'feature_collaborators'
+
+[33mcommit a42dc77f3ae121f6d27f41463f71eaa522fd8d97[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sun Dec 17 14:03:22 2017 -0800
+
+    collaborator model
+
+[33mcommit f215c0494bad44887f148ca39ebd90caba9ab832[m
+Author: superdeveloper1988@yandex.com <superdeveloper1988@yandex.com>
+Date:   Sun Dec 17 12:09:33 2017 +0800
+
+    Add Facebook login
+
+[33mcommit 35f30f91970f099e84fd025d800a90ad2b06e47d[m
+Author: superdeveloper1988@yandex.com <superdeveloper1988@yandex.com>
+Date:   Sun Dec 17 11:57:03 2017 +0800
+
+    Add Facebook login
+
+[33mcommit a5cba100a94d397278cc19805283b85a8f4a0384[m[33m ([m[1;31morigin/feature_cloudConvert[m[33m)[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Dec 15 20:12:10 2017 -0800
+
+    fix method name
+
+[33mcommit 1c7f42e2aebbe0cdd3d4ab687d39b9a4d807f9a5[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Dec 15 20:09:16 2017 -0800
+
+    handle response from CC
+
+[33mcommit bbcf12172e59a81b5e675d3399f0d73be17caf97[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Dec 15 18:47:04 2017 -0800
+
+    add log for error
+
+[33mcommit 48aadca53b4b55eab5dc65332e2d81b8598234ca[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Dec 15 18:42:18 2017 -0800
+
+    missing class
+
+[33mcommit 16bc6002f451374ed3c110841702c7197a426b6c[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Dec 15 18:39:00 2017 -0800
+
+    typo
+
+[33mcommit 518657d43aeefaeeb6c4391d7ced1d95116b368b[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Dec 15 18:33:19 2017 -0800
+
+    initial CC
+
+[33mcommit dd759dc1be1b33cac19e52e6c78364521cb8db29[m
+Author: superdeveloper1988@yandex.com <superdeveloper1988@yandex.com>
+Date:   Fri Dec 15 17:44:18 2017 +0800
+
+    Add Facebook login
+
+[33mcommit 46db563ec9dcef9102ee5d612c374409accd804d[m
+Author: superdeveloper1988@yandex.com <superdeveloper1988@yandex.com>
+Date:   Fri Dec 15 16:56:22 2017 +0800
+
+    Add Facebook login
+
+[33mcommit b455514f85f0666021e0ba29355ad1e54e8c33e1[m
+Author: superdeveloper1988@yandex.com <superdeveloper1988@yandex.com>
+Date:   Fri Dec 15 01:46:43 2017 +0800
+
+    Add Facebook login
+
+[33mcommit 232b33edc9817f0d9df4edebbdc441dd3ace2ed9[m
+Author: superdeveloper1988@yandex.com <superdeveloper1988@yandex.com>
+Date:   Thu Dec 14 05:36:39 2017 +0800
+
+    Add Facebook login
+
+[33mcommit 3a71dc981bc40291f5f95267b711e7699dc394a1[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Dec 12 18:35:14 2017 -0800
+
+    chron fix
+
+[33mcommit d123da4752370dfacfd2e09bcbffa4dae6933fd8[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Dec 6 18:13:06 2017 -0800
+
+    small bug fixes and merge edits
+
+[33mcommit 3cebd25f1eaf0c50b845b9f93caa949b6d581e39[m
+Merge: a0d44c6 8ec1b3a
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Dec 6 17:54:15 2017 -0800
+
+    Merged feature_dashboard_edits into master
+
+[33mcommit a0d44c67f06f342448b0044cdece59c73d97e793[m
+Merge: a46e9b3 e5e2511
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Dec 6 12:26:00 2017 -0800
+
+    Merge branch 'master' of https://bitbucket.org/ydc_programmers/revued-app
+
+[33mcommit a46e9b30ac25cdd86292e012fef48b3d6db912b0[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Dec 6 12:21:07 2017 -0800
+
+    missing common.js
+
+[33mcommit 8ec1b3a7a315e78c1144a82c3311c5a8727b2079[m[33m ([m[1;31morigin/feature_dashboard_edits[m[33m)[m
+Author: Artash <apinyan08@mail.ru>
+Date:   Wed Nov 29 19:49:28 2017 +0000
+
+    menu.ctp edited online with Bitbucket
+
+[33mcommit e5e25118e56007536d45a36c85cf63cdb2370d99[m
+Merge: eaf804b 4c15064
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Nov 28 11:32:59 2017 -0800
+
+    Merged zhiqiang into master
+
+[33mcommit 4c15064cb261267db9aacd1ebe01775f7d3a94ed[m
+Author: amazingdeveloper260 <33214142+amazingdeveloper260@users.noreply.github.com>
+Date:   Tue Nov 28 11:00:26 2017 +0800
+
+    Add Facebook login
+
+[33mcommit 392b6ce93bde2b0640942cd419d57b06ea1ef5ed[m
+Author: amazingdeveloper260 <33214142+amazingdeveloper260@users.noreply.github.com>
+Date:   Tue Nov 28 10:58:50 2017 +0800
+
+    Add Facebook login
+
+[33mcommit 9506d68ab51015b45ded3079bae8419a184f03be[m
+Author: amazingdeveloper260 <33214142+amazingdeveloper260@users.noreply.github.com>
+Date:   Sun Nov 26 17:50:52 2017 +0800
+
+    Add Facebook login
+
+[33mcommit 321621c8c4350b3d7052689237036959aa63234a[m
+Merge: 68b70fd eaf804b
+Author: amazingdeveloper260 <33214142+amazingdeveloper260@users.noreply.github.com>
+Date:   Sun Nov 26 17:41:03 2017 +0800
+
+    Merge branch 'master' into zhiqiang
+
+[33mcommit 68b70fd5e4426fa82c6f342015387c9964eae178[m
+Author: amazingdeveloper260 <33214142+amazingdeveloper260@users.noreply.github.com>
+Date:   Sun Nov 26 17:39:30 2017 +0800
+
+    Add Facebook login
+
+[33mcommit e7ae37d06ee208cff2fee782132d3f36c444e9c6[m
+Author: amazingdeveloper260 <33214142+amazingdeveloper260@users.noreply.github.com>
+Date:   Sat Nov 25 21:19:54 2017 +0800
+
+    Update first
+
+[33mcommit eaf804b9f3cd2d5f906b6f5f6bef980530407f10[m
+Merge: 535962d aa58841
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Nov 24 15:33:16 2017 -0800
+
+    Merge branch 'master' of https://bitbucket.org/ydc_programmers/revued-app
+
+[33mcommit 535962d37ce9ec2d682201606b437f1b248087a9[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Nov 24 15:30:01 2017 -0800
+
+    mobile app methods, video assets jpg, place_id in model
+
+[33mcommit 7d445688ab7a8a43d861f89d7ee8d9d73102bf5d[m
+Author: Artash <apinyan08@mail.ru>
+Date:   Wed Nov 22 22:22:50 2017 +0000
+
+    revued-site.css edited online with Bitbucket
+
+[33mcommit 111565da3ef3c0c08b718954eb6fa8fad647abc3[m
+Author: Artash <apinyan08@mail.ru>
+Date:   Wed Nov 22 22:21:33 2017 +0000
+
+    menu.ctp edited online with Bitbucket
+
+[33mcommit 9e173d4b507a6c9c35b554c6dc088e93a3706e6e[m[33m ([m[1;32mfeature_dashboard_edits[m[33m)[m
+Author: Artash <apinyan08@mail.ru>
+Date:   Wed Nov 22 21:43:44 2017 +0000
+
+    revued-site.css edited online with Bitbucket
+
+[33mcommit ea1a06609d1bd4feb9e19b4cc9f6f39b15acc85e[m
+Author: Artash <apinyan08@mail.ru>
+Date:   Wed Nov 22 20:40:48 2017 +0000
+
+    menu.ctp edited online with Bitbucket
+
+[33mcommit c35df60d367fb4f2a861cd7a9478b6ad48b2de23[m
+Author: Artash <apinyan08@mail.ru>
+Date:   Wed Nov 22 20:39:50 2017 +0000
+
+    revued-site.scss edited online with Bitbucket
+
+[33mcommit aa588415e82904e41a2f952240b9097e09bb36d5[m[33m ([m[1;33mtag: system[m[33m)[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Nov 22 19:55:08 2017 +0000
+
+    authNet.php deleted online with Bitbucket
+
+[33mcommit 7e616613af8b02fc879ab9b0ad343669fc196d0c[m
+Author: Artash <apinyan08@mail.ru>
+Date:   Wed Nov 22 19:45:20 2017 +0000
+
+    code.ctp edited online with Bitbucket
+
+[33mcommit 3521de43c4e116f5b8fb3bd8b90e46c26d827d3d[m
+Author: Artash <apinyan08@mail.ru>
+Date:   Wed Nov 22 19:42:25 2017 +0000
+
+    menu.ctp edited online with Bitbucket
+
+[33mcommit f76178d886ab250a91430d22711e66416f8f1bc6[m
+Author: Artash <apinyan08@mail.ru>
+Date:   Wed Nov 22 19:40:49 2017 +0000
+
+    index.ctp edited online with Bitbucket
+
+[33mcommit c35258ac9cedd976de53b8cb9328a084ed9d3624[m
+Author: YourDigitalCanvas <bryanbarbeau@gmail.com>
+Date:   Tue Nov 21 21:56:53 2017 +0000
+
+    README.md created online with Bitbucket
+
+[33mcommit 48f5f3bde4a7f3ae1b3418fe3469f35ef8fefcd4[m
+Merge: d14e1e4 cd1ebcb
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Nov 17 09:33:46 2017 -0800
+
+    Merge branch 'ffmpeg'
+
+[33mcommit cd1ebcb236218a53c911749b26f8e6269d4151bb[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Nov 17 09:33:35 2017 -0800
+
+    fixes
+
+[33mcommit d14e1e4473e9da22e32378d549ad56d643fa9db1[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Nov 13 19:49:38 2017 -0800
+
+    a bit more colors
+
+[33mcommit 2cb6ae59a9782d5b7d048ad2856cd82f66ed1647[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Nov 3 11:45:02 2017 -0700
+
+    cc date restore
+
+[33mcommit ea35aff81b71de2afa012458399593abce11d8ed[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Nov 2 17:16:55 2017 -0700
+
+    slim yp icon
+
+[33mcommit c9558d86705de42a4199adf898ae73a59712f9e9[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Nov 1 21:41:39 2017 -0700
+
+    null check
+
+[33mcommit e2e47fa8fc6b46d7e2fe8fbb9ea69bd37a503763[m[33m ([m[1;31morigin/ffmpeg[m[33m)[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Oct 31 23:28:15 2017 -0700
+
+    bug fix
+
+[33mcommit 8aa004e9bfa02b9a43d7eda2125022a8cfa8a00f[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Oct 31 23:24:02 2017 -0700
+
+    mov case
+
+[33mcommit 56a3950bf62606f8de178e73ea5b5418a81e3c26[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Oct 31 23:02:16 2017 -0700
+
+    ffmpeg, convert mov
+
+[33mcommit 181eeda19feee74f25cbc6fdba49191864bdfd75[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Oct 30 18:42:26 2017 -0700
+
+    reseller codes
+
+[33mcommit 2262f28fb3aec34f135472a0cfcdb97a7bc8b5df[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Oct 24 16:39:33 2017 -0700
+
+    custom colors
+
+[33mcommit 1f62afedb44031c486dc6175a412a5b5c88f2e8a[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Oct 20 21:31:16 2017 -0700
+
+    mov file accept
+
+[33mcommit d429e77ec806539c18e0a3968a72db920259b27f[m
+Merge: 0e51f23 0836ca6
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Oct 16 13:03:06 2017 -0700
+
+    fix merge
+
+[33mcommit 0836ca6d7bc201681d80a0f789fb0d8af81d9a83[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Oct 16 13:00:33 2017 -0700
+
+    video-reviews
+
+[33mcommit 0e51f232745150bc3aef86625f31950770eba145[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Oct 6 11:37:12 2017 -0700
+
+    register reseller settings
+
+[33mcommit aa22e007a346f4f18304ac6b91e02af1d0bd27c0[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Oct 6 11:05:54 2017 -0700
+
+    reseller normal dash functions
+
+[33mcommit 7abbcc8072fb5e350b2f167623706abff9d1cf7e[m[33m ([m[1;31morigin/revued_videos[m[33m)[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Sep 27 20:41:27 2017 -0700
+
+    bug
+
+[33mcommit ff0d5cfe0133c19406f5b19c3e16bf6dc5291ade[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Sep 27 20:19:00 2017 -0700
+
+    bug
+
+[33mcommit 1b974c4496e611cfc78ab46f8743f17fe4a842a3[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Sep 27 20:04:02 2017 -0700
+
+    rev vids alpha
+
+[33mcommit 9f0dd9605f52ea933575aec0ba15de13062b6062[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Sep 22 10:41:45 2017 -0700
+
+    dashboard account; status filter; request review
+
+[33mcommit ed49513984cc1faac071c2b3a9dcce80211f24f9[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Sep 18 15:35:47 2017 -0700
+
+    dashboard features
+
+[33mcommit 0a9ec01ca2db997acd06c5a2e99e659b3cf6876b[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Sep 14 13:34:34 2017 -0700
+
+    refinements, help
+
+[33mcommit 537ca7843b6f263fb29ee92817ac25f064c4e3b3[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Sep 13 14:37:02 2017 -0700
+
+    default, js checkbox
+
+[33mcommit c8ccee2569d172dfb5cb1ce928a57bc8bf4b2337[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Sep 13 12:37:07 2017 -0700
+
+    subscription status
+
+[33mcommit 779c070afba4c98ff2197e55da82bb40969cf212[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Sep 13 12:30:43 2017 -0700
+
+    default reseller_id val
+
+[33mcommit e0809dbd6993637222e7acbaea3ab37d5bfe570a[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Sep 13 11:36:38 2017 -0700
+
+    reseller settings, users controller
+
+[33mcommit 06029f0889e3832775df0fd8ea9bef661de08319[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Sep 12 16:43:52 2017 -0700
+
+    fix
+
+[33mcommit 1cb6873458989ec5b5fbbc7a92c8dc6994db5a7e[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Sep 12 16:43:19 2017 -0700
+
+    fix
+
+[33mcommit 69795ab2cfc763d9fc903d350de2c0a4b501f784[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Sep 12 16:30:09 2017 -0700
+
+    register flows
+
+[33mcommit b7b2bddbeb3cbed800529731b42b7b3591095dc1[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Sep 11 18:41:22 2017 -0700
+
+    terms
+
+[33mcommit 9358aedf7bc6789df062682afd36e5f2e3c4d082[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Sep 11 18:21:22 2017 -0700
+
+    registry flow, terms modal
+
+[33mcommit b0f74c0c9b038b5fc7698eea96c3c78097a8d3bf[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Sep 11 09:26:29 2017 -0700
+
+    recover account
+
+[33mcommit e0a2ede7edd1c77ffc7ca9740837857afb9d0322[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Sep 11 09:15:54 2017 -0700
+
+    recover account
+
+[33mcommit 740fb07bdb9556cb75d92076326ebab51258715e[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Sep 8 10:02:46 2017 -0700
+
+    user amount
+
+[33mcommit 5eea2802082faa2501644c0c710fbd1ba3d92009[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Sep 6 20:35:33 2017 -0700
+
+    autopost threshold
+
+[33mcommit b75f190148c3d73e28b8285fc2cadbf21fe9fbe9[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Sep 5 09:09:58 2017 -0700
+
+    authorize fix
+
+[33mcommit f314f73cac6dae73cecbfe041c54409bb0957b27[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Sep 4 14:33:59 2017 -0700
+
+    abs link
+
+[33mcommit c0623562c89841097c976d59ce13402944537b74[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Sep 4 14:32:23 2017 -0700
+
+    reseller fixes
+
+[33mcommit f1022932eb1534ff54937a18f3eca6ae18d9bd85[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Sep 4 14:11:47 2017 -0700
+
+    reseller fixes
+
+[33mcommit b3bfdb7c3c5bc78ddd83d197e14943ba0cd0b18b[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Sep 4 13:59:24 2017 -0700
+
+    reseller fixes
+
+[33mcommit ba7acbdf8c1fe52a8cb70ecf14bed89db672c3a9[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Sep 4 13:48:49 2017 -0700
+
+    reseller fixes
+
+[33mcommit 28a307324bff444ec8841f42c0032f56bf8d756f[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Sep 4 11:43:28 2017 -0700
+
+    reseller
+
+[33mcommit 03dd6401f02da6827578712aeb75f04788e56a6f[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sun Sep 3 19:27:05 2017 -0700
+
+    debug
+
+[33mcommit 75792a3fb162b55ad3dad1ebaad5e9b3decd1792[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sun Sep 3 19:25:18 2017 -0700
+
+    debug
+
+[33mcommit e466efed45f8b68cea284a373c9ecd6ae725d618[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Aug 29 14:45:40 2017 -0700
+
+    logs for authNet
+
+[33mcommit 827b29d61133d02622f58ed7c807e026361b84a3[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sun Aug 27 15:06:52 2017 -0700
+
+    robots.txt
+
+[33mcommit 3ddb69b4cdcc4ed0c99710eea3018aad23928f6b[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Aug 24 12:26:38 2017 -0700
+
+    trial condition
+
+[33mcommit 47035495b91ac4c426c07061a2a6948d0b5a8063[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Aug 24 12:20:37 2017 -0700
+
+    trial condition
+
+[33mcommit ed6f6637c61f2d3981d6152d3dc6ea36b43eaebb[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Aug 24 12:17:45 2017 -0700
+
+    trial condition
+
+[33mcommit 93e7165f37b4b4f37cab4778114d090eef898ef1[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Aug 23 18:58:54 2017 -0700
+
+    states dropdown, cron trial
+
+[33mcommit 8b15bbbd066985b044cd071b285b32f44467c289[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Aug 22 09:59:40 2017 -0700
+
+    authNet credentials
+
+[33mcommit 7b8fe83730dbd590d81bb274164fc29ca5e4412f[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Aug 22 09:45:21 2017 -0700
+
+    authNet credentials
+
+[33mcommit e08d875402bbd129fe1d072bd6a9fd3fe40ed26a[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Aug 21 20:25:01 2017 -0700
+
+    test email
+
+[33mcommit 434df758ed2d77bf204f50298e3a0f9601759744[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Aug 21 20:21:51 2017 -0700
+
+    test email
+
+[33mcommit 8fa5b8002c7b44d469b1a5eb2e44bbb62aa8b606[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Aug 21 19:46:57 2017 -0700
+
+    allow site controller
+
+[33mcommit aaa4c12f2cf71203b8db26a42883473533555218[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Aug 21 19:08:43 2017 -0700
+
+    updates
+
+[33mcommit 6bc1bab573ca48588a96ccbb7b4a07cfd6300419[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sat Aug 19 17:49:42 2017 -0700
+
+    testing, transport
+
+[33mcommit 821d3773f0b7c6751d85d95f7cf6e6039f83b717[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sat Aug 19 16:11:35 2017 -0700
+
+    mailer fixes
+
+[33mcommit 47cc5f1ab0a7102e54477be435d5a3518f7d7a4b[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sat Aug 19 16:05:39 2017 -0700
+
+    mailer fixes
+
+[33mcommit f400463e26040f233abc667a880644cc4480b8ea[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sat Aug 19 15:58:46 2017 -0700
+
+    sys mailer
+
+[33mcommit 9d385ba79ea7411cac3b16cc1455583feebebd6a[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sat Aug 19 15:39:51 2017 -0700
+
+    bulk updates
+
+[33mcommit f8e060238437ddfeff7d54b1308fd9c67c71545e[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Aug 11 20:03:30 2017 -0700
+
+    excerpt
+
+[33mcommit 4afff10c3324968ea31ff6f9d13079e3a8253386[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Aug 9 18:27:48 2017 -0700
+
+    logout
+
+[33mcommit 61dd957c60d1147c7ea4eb9983ebe40e7e424451[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Aug 9 17:38:55 2017 -0700
+
+    bulk upload
+
+[33mcommit 7eb0cdabfd78c99882fe5241a092867f9323077e[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Aug 7 19:05:22 2017 -0700
+
+    order reviews
+
+[33mcommit d6261105319edfe1f59b992a3f57508f059f8a25[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Aug 7 12:41:18 2017 -0700
+
+    close button align
+
+[33mcommit 05c68832686cb709f908bf8d13b2edcb12326e4a[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Aug 7 12:36:08 2017 -0700
+
+    close button align
+
+[33mcommit f1f0d0d0ca2e2c22da8119184b0f682080ae0b21[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Aug 3 12:23:20 2017 -0700
+
+    google first
+
+[33mcommit fddc183b93b9c66706e3152048d7870b2321cc90[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Aug 1 00:38:19 2017 -0700
+
+    debug email
+
+[33mcommit 089a4d33de5e4b1d790bff6d2fd3e4ecd39c59ab[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Aug 1 00:38:10 2017 -0700
+
+    debug email
+
+[33mcommit c3f2221203791a253ceed25b3eddc89356f18134[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Aug 1 00:37:00 2017 -0700
+
+    debug email
+
+[33mcommit 1468ca7235412cf3ca0811f11f4df8beb7c10bd2[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Jul 31 23:46:46 2017 -0700
+
+    debug email
+
+[33mcommit 7bbc498846ec5c3e71fd8abc2cfa330a4429725a[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Jul 31 23:43:45 2017 -0700
+
+    debug email
+
+[33mcommit 08bc2747e1438cbe80936e727c3f0e304586d1d0[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Jul 31 23:42:50 2017 -0700
+
+    debug email
+
+[33mcommit ce60c1b02c4f943f9553f10548c9fd5286735760[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Jul 31 23:40:40 2017 -0700
+
+    debug email
+
+[33mcommit 2b7fdff88d456cf812e1d68e34971452d8004b25[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Jul 31 23:21:18 2017 -0700
+
+    email transport for gmail, fb title
+
+[33mcommit 3d28a3536c01f29ed2ec5ca5c05096766d29cd62[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sat Jul 29 16:24:36 2017 -0700
+
+    fix
+
+[33mcommit 00b2d21550253f89d6d151311f3550f7267dd9f7[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sat Jul 29 14:05:12 2017 -0700
+
+    asset fix
+
+[33mcommit 51a766ec0b125c84924ca273382f46dd82831e03[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sat Jul 29 12:48:36 2017 -0700
+
+    admin section
+
+[33mcommit 0c214e918a61ba21939fc002e2b158922f38db78[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Jul 27 20:04:11 2017 -0700
+
+    title, favicon, disable forgot links
+
+[33mcommit 9de0fdd26ada3ec9ae0fe49003b308fd6da1f331[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Jul 24 19:59:30 2017 -0700
+
+    email notification on new review
+
+[33mcommit 93afa8b3b34ed7290c2a33bb31f85c4004a71d7e[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Jul 20 18:31:08 2017 -0700
+
+    styling updates
+
+[33mcommit 4f65093eaa6195f3e1946aa6ce4fd683043c053a[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Jul 20 18:18:51 2017 -0700
+
+    styling updates
+
+[33mcommit 40fb192a7d4fd78a8e6848a9378e7433bae3aa8d[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Jul 20 18:11:37 2017 -0700
+
+    styling updates
+
+[33mcommit 3655c504fc6de6f4f485dbab7eeab9ce963ccc47[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Jul 20 18:04:17 2017 -0700
+
+    styling updates
+
+[33mcommit 3c3feb423a0142056866acfa2cd1e8d417806e9d[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Jul 20 18:03:02 2017 -0700
+
+    styling updates
+
+[33mcommit f9e3ed46e0b249b2d164a156e35b9122dd191549[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Jul 20 17:46:24 2017 -0700
+
+    styling updates
+
+[33mcommit b896e2d923b7466f3c10549976779d1d0b6aead0[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Jul 19 19:05:56 2017 -0700
+
+    errant tag
+
+[33mcommit d149c38eff488fb137679f4ce7ea5b5ee6ba03c5[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Jul 19 19:01:32 2017 -0700
+
+    remove mixed content
+
+[33mcommit 9cf716d59df0efddf3635f896c4d3fa64cd5e5d4[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Jul 19 18:57:52 2017 -0700
+
+    function rename
+
+[33mcommit d560a4ec4f71bc7054388c21df8282516cd22b1e[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Jul 19 18:47:51 2017 -0700
+
+    function rename
+
+[33mcommit 3642e26844926fc2fba74416a860dbd60f374385[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Jul 19 18:38:54 2017 -0700
+
+    remove protocol
+
+[33mcommit b3d68137f250a8b38862a7d3f43104cf78e13909[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Jul 18 16:40:14 2017 -0700
+
+    remove protocol
+
+[33mcommit fb58401fb08dd6981cd55fdb2f29bcd91aadfa89[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue Jul 18 09:21:12 2017 -0700
+
+    line height
+
+[33mcommit 5951029bd6fd0dd7b35427568aeaa26f907f5aa8[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Jul 17 23:03:59 2017 -0700
+
+    style edits
+
+[33mcommit a968e20f3442d9ed029fba79c4b1ea09c08d27ca[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sun Jul 16 20:13:41 2017 -0700
+
+    styling update
+
+[33mcommit 31c46803a1155d8253365bd8cec2faf28f42ae20[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed Jul 12 08:52:39 2017 -0700
+
+    use local images
+
+[33mcommit 1d8f03ad693ae45e83d520f74dd058e8ad65a645[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Jul 10 20:30:47 2017 -0700
+
+    style edit
+
+[33mcommit e529f7bef5996113ac6705c17d4f27ee971fa467[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Jul 10 16:46:40 2017 -0700
+
+    required on update
+
+[33mcommit 063debc28fc75f29f126b6cfff4f906a4226bda3[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Mon Jul 10 16:38:15 2017 -0700
+
+    required on update
+
+[33mcommit b607b3ef99d837e71b5924daf95e481631ae1ffc[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Sat Jul 1 00:49:37 2017 -0700
+
+    cross site fix
+
+[33mcommit f8b5af7587765077196d96544f26fc6311043f6a[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 23:39:22 2017 -0700
+
+    cross site fix
+
+[33mcommit bccf45fb359cec720d1df4baee3d1663d0411b5b[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 23:25:11 2017 -0700
+
+    cross site fix
+
+[33mcommit 8bfc94fbb6f9a5741d3eef61464f59f61f3d0f2b[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 22:38:56 2017 -0700
+
+    cross site fix
+
+[33mcommit 31810a88f46c32aa4bddf23861734c0769356600[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 22:35:30 2017 -0700
+
+    cross site fix
+
+[33mcommit e7c3c584f4063adc4caa82519e264090ee84e175[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 21:55:13 2017 -0700
+
+    cross site fix
+
+[33mcommit 666e1f40814fc3a44227ba9be5b591d31a18d59d[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 21:43:38 2017 -0700
+
+    cross site fix
+
+[33mcommit f86911f50506082ff4421c4394cd2ed21fa58bf5[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 21:41:05 2017 -0700
+
+    cross site fix
+
+[33mcommit c88e0ef7ac30b1276d155dba0c6aee567339a310[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 21:38:22 2017 -0700
+
+    cross site fix
+
+[33mcommit fe5106d857d9a22c7cc2607cf10fbee7f2a44738[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 21:28:14 2017 -0700
+
+    cross site fix
+
+[33mcommit e2badc18b5b4b15d2311efaa8a9e05c1f54d8385[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 20:53:17 2017 -0700
+
+    cross site fix
+
+[33mcommit b3b38c4063dfbaf840baa4e15f882a39412d2711[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 20:50:45 2017 -0700
+
+    cross site fix
+
+[33mcommit e30e99b88e63805ae52f47bec45dc67fe3f1e0e2[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 20:45:12 2017 -0700
+
+    cross site fix
+
+[33mcommit c644da0ad8679c1911a821467ff38668c77319fd[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 20:29:13 2017 -0700
+
+    cross site fix
+
+[33mcommit 0f3b07b1d951d13248df73a5cffa53e3a27cb4c1[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 20:26:24 2017 -0700
+
+    cross site fix
+
+[33mcommit d04ad1c49990c95c0b4cb9333b4682c20bade39f[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 20:20:29 2017 -0700
+
+    cross site fix
+
+[33mcommit f4fc2c0822378ce9d13e208c97b42d705df400b2[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 20:07:32 2017 -0700
+
+    cross site fix
+
+[33mcommit 468d3ef2f566bb18c806c95a745de26775401988[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 19:42:57 2017 -0700
+
+    cross site fix
+
+[33mcommit 06ba92b08a978a3204d70db561c45984c4ce5f11[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 19:40:48 2017 -0700
+
+    cross site fix
+
+[33mcommit ebbc075d35d013bad435ee510e502fd48a40b573[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 19:34:04 2017 -0700
+
+    cross site fix
+
+[33mcommit 7f3ceab7af2044ee46d06269950fb2678d06be00[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 19:31:23 2017 -0700
+
+    cross site fix
+
+[33mcommit 3f146c5797f7c80ddef2445c119ecad168fe5c2d[m[33m ([m[1;31morigin/feature_floater[m[33m)[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Fri Jun 30 18:59:19 2017 -0700
+
+    floater code
+
+[33mcommit 92faef7ab4baa0c8637fbc40daf3753f5ba9b92b[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu Jun 22 21:39:10 2017 -0700
+
+    daily fetch method for cron; status for users, disables embed
+
+[33mcommit d861363589fbc3b9830dd602f0ea6a29bdd91781[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu May 25 11:38:04 2017 -0700
+
+    star styling
+
+[33mcommit 060a23ac46ca5fdcf87c64e5c8d87d49bf775524[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu May 25 11:36:40 2017 -0700
+
+    star styling
+
+[33mcommit 1bbca9e50c1fb80da1bf64022d3c58bf90dac597[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu May 25 11:35:25 2017 -0700
+
+    star styling
+
+[33mcommit acd6aeae641cb858122e20ef638e4223aa9586fc[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu May 25 11:25:42 2017 -0700
+
+    paginator error
+
+[33mcommit 0680c580bed482f5b8e73ba5760b77bd275dd21d[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Thu May 25 11:07:03 2017 -0700
+
+    missing argument
+
+[33mcommit db1f6be4849760164632387636d8c8225db00394[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Wed May 24 17:28:13 2017 -0700
+
+    review approve, archive
+
+[33mcommit 6ded5d046a720e25c4dc624a277a1d014892dd4f[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue May 16 17:40:17 2017 -0700
+
+    more files
+
+[33mcommit 4c6c3e369512f08cef7a5c7d843132826b710cb5[m
+Author: Helios Escobar <magent_mx@yahoo.com>
+Date:   Tue May 16 17:21:58 2017 -0700
+
+    initial commit

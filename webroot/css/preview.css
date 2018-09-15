@@ -1,0 +1,27 @@
+body {
+  padding-top: 50px;
+}
+#preview {
+    border: 1px solid grey;
+    min-height: 150px;
+    min-width: 150px;
+    max-height: 300px;
+    max-width: 400px;
+}
+
+.swatch {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  border: 2px solid #666;
+  margin: 2px;
+}
+
+.swatch-clickable:hover {
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  padding:10px;
+}

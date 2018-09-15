@@ -1,0 +1,97 @@
+#revued-placeholder {
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    z-index: 999999;
+    max-width: 380px;
+    padding: 0;
+    text-align: left;
+}
+
+#revued_iframe {
+    width: 100%;
+    min-width: 280px;
+}
+
+#revued-btn-container {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999999;
+}
+
+#revued-btn-container button:hover {
+    background: #fff url(../img/white-min.png);
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+#revued-btn-container button {
+    cursor: pointer;
+    background: #000 url(../img/original-min.png);
+    width: 300px;
+    height: 61px;
+    border-radius: 10px;
+    border: 1px solid #b9a882;
+    padding: 14px 45px 12px 45px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+#revued-close {
+    color: #98c73c;
+    text-decoration: none;
+    text-shadow: -1px 3px 5px rgba(0, 0, 0, 1);
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0 0 0 5px;
+    line-height: 0.5;
+}
+
+.revued-btn-sm {
+    background-size: 100px !important;
+    width: 103px !important;
+    height: 25px !important;
+    padding: 0px !important;
+}
+
+.revued-btn-md {
+    background-size: 200px !important;
+    width: 203px !important;
+    height: 43px !important;
+    padding: 0px !important;
+}
+
+.revued-btn-lg {
+    background-size: 300px !important;
+    width: 300px !important;
+    height: 62px !important;
+    padding: 0px !important;
+}
+
+@media only screen and (max-width: 420px) {
+    #revued-btn-container {
+        display: block;
+    }
+    #revued-placeholder {
+        display: none;
+        top: 10px;
+    }
+
+    #revued-close {
+        display: none;
+        font-size: 65px;
+    }
+    #revued-btn-container button {
+        background-size: contain;
+        width: 190px;
+        height: 41px;
+    }
+    #revued-btn-container button:hover {
+        background-size: contain;
+    }
+}
+
